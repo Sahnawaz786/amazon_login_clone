@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="/images/favicon.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <title>Amazon Sign In</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      .parent img {
+        width: 116px;
+        /* float: right; */
+        margin-left: 8vw;
+        margin-top: 9px;
+      }
+
+      .parent {
+        margin: auto;
+        /* border:1px solid red; */
+        width: 370px;
+        height: 500px;
+      }
+
+      .login {
+        border: 1px solid #c3c3c3;
+        width: 361px;
+        /* float: right; */
+        margin-top: 9px;
+        margin-right: -252px;
+        height: 297px;
+      }
+
+      .login span {
+        padding-bottom: -31px;
+        font-size: 28px;
+        float: left;
+        padding-left: 24px;
+        padding-top: 21px;
+      }
+
+      #email {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        font-weight: bolder;
+        float: left;
+        clear: both;
+        padding-left: 24px;
+        padding-top: 18px;
+      }
+
+      #text {
+        float: left;
+        margin-top: 6px;
+        width: 291px;
+        /* border-radius: 3px; */
+        margin-left: 23px;
+        height: 26px;
+        /* outline: 0; */
+        /* border: 0; */
+        clear: both;
+      }
+      .login button {
+        float: left;
+        clear: both;
+        width: 300px;
+        margin-left: 23px;
+        margin-top: 18px;
+        font-weight: lighter;
+        font-size: 15px;
+        border: 1px solid #6f5353;
+        height: 31px;
+        outline: 1px;
+        /* border: 0; */
+        background-color: rgb(243, 186, 81);
+      }
+      #agrrement {
+        font-size: 12px;
+      }
+      #use {
+        font-size: 12px;
+        margin-top: -16px;
+      }
+      #help {
+        font-size: 12px;
+        margin-left: -138px;
+        margin-top: 18px;
+      }
+      small {
+        color: blue;
+      }
+
+      small:hover {
+        cursor: pointer;
+      }
+      #onehr {
+        width: 116px;
+        float: left;
+        margin-top: 26px;
+      }
+
+      .downsection span {
+        font-size: 12px;
+        padding-top: 19px;
+        float: left;
+        padding-left: 8px;
+      }
+      #twohr {
+        width: 144px;
+        float: right;
+        margin-right: 3px;
+        margin-top: 26px;
+      }
+
+      .downsection button {
+        width: 368px;
+        margin-top: 23px;
+        height: 31px;
+        font-size: 15px;
+      }
+
+      #lastline {
+        width: 828px;
+        margin-top: 28px;
+        margin-left: -210px;
+        box-shadow: 14px;
+        float: left;
+      }
+
+      .footer li {
+        display: inline-block;
+        font-size: 11px;
+        margin-top: 22px;
+        color: blue;
+        padding-left: 28px;
+      }
+      #copyright {
+        font-size: 11px;
+        margin-left: 70px;
+        color: #555!important;;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="amazon-img">
+        <img src="/images/amazon-logo-transparent.png" alt="" />
+      </div>
+
+      <div class="login">
+        <span>Sign-In</span>
+        <span id="email">Email or mobile phone number</span>
+        <input type="text" name="text" id="text" />
+        <button>Continue</button>
+        <span id="agrrement"
+          >By continuing, you agree to Amazon's
+          <small>Conditions of</small></span
+        >
+        <span id="use"
+          ><samll>Use</samll> and <small>Privacy Notice.</small></span
+        >
+        <span id="help"><small>Need help?</small></span>
+      </div>
+
+      <div class="downsection">
+        <hr id="onehr" />
+        <span>New to Amazon?</span>
+        <hr id="twohr" />
+        <button>Create your Amazon account</button>
+        <hr id="lastline" />
+      </div>
+      <div class="footer">
+        <ul>
+          <li>Conditions of Use</li>
+          <li>Privacy Notice</li>
+          <li>Help</li>
+        </ul>
+        <span id="copyright"
+          >© 1996-2021, Amazon.com, Inc. or its affiliates</span
+        >
+      </div>
+    </div>
+  </body>
+</html>
